@@ -10,7 +10,7 @@ def withdrawal
   puts new_balance
 end
 
-#define method then input the variable to be stored in getschomp then define the parameter
+#define method then input the variable then define the parameter
 def question
   puts "What would you like to do? Press w for withdrawal and d for deposit"
   user_input = gets.chomp
